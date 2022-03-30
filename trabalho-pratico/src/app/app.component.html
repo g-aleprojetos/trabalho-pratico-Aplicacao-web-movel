@@ -1,0 +1,26 @@
+<!--Principal-->
+<div class="main">
+  <!--Titulo da tabela-->
+  <h1 class="titulo">Agenda</h1>
+  <!-- Esteliza o formulário usando bootstrap e css -->
+  <table class="table table-striped formulario">
+    <!-- Cabeçalho da tabela -->
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>RU</th>
+        <th>Curso</th>
+        <th>Data Nascimento</th>
+      </tr>
+    </thead>
+    <!--corpo da tabela com os dados-->
+    <tbody>
+      <tr *ngFor="let dado of dados">
+        <td>{{dado.nome}}</td>
+        <td>{{dado.ru}}</td>
+        <td>{{dado.curso}}</td>
+        <td>{{dado.dataNascimento}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,20 @@
+/*Estilização da página*/
+.main{
+    margin: 50px 60px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif; /* Uso da font Roboto do Google Fonts*/
+    font-weight: bold; /*Coloca o titulo em negrito*/
+    font-size: 1.875em;/*Determina a altura do titulo*/
+}
+
+.formulario{
+    margin-top: 10px; /* Margin de cima do formulário*/
+    font-family: 'Roboto', sans-serif;   /* Uso da font Roboto do Google Fonts*/
+    font-size: 0.875em; /* Tamanho das letras*/
+}
+
+th{
+    font-weight: bold; /*Coloca o texto em negrito*/
+}
